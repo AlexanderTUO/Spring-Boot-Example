@@ -1,9 +1,17 @@
-spring:
+sp:
   datasource:
     driver-class-name:  com.mysql.jdbc.Driver
     username: root
     password:
     url: jdbc:mysql://localhost:3306/sp?useUnicode=true&characterEncoding=utf-8
+
+sq:
+  datasource:
+    driver-class-name:  com.mysql.jdbc.Driver
+    username: root
+    password:
+    url: jdbc:mysql://localhost:3306/sq?useUnicode=true&characterEncoding=utf-8
+
 server:
   port: 6897
   context-path: /api/
